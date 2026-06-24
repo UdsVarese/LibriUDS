@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>LibriUDS — Book Search</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main class="container">
+			<header>
+				<h1>LibriUDS</h1>
+				<p class="lead">Search the book database by title, author or code.</p>
+			</header>
+
+			<section class="controls">
+				<input id="q" type="search" placeholder="Search by title, author, code or description" autofocus />
+				<select id="tag-filter">
+					<option value="">All tags</option>
+				</select>
+				<div id="count" class="count"></div>
+			</section>
+
+			<section id="results" class="results">
+				<!-- results go here -->
+			</section>
+		</main>
+
+		<script src="scripts.js" defer></script>
+	</body>
+</html>
