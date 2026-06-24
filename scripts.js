@@ -30,6 +30,18 @@ async function loadBooks() {
     if (params.q || params.tag) searchBooks();
     else renderResults(books);
   } catch (err) {
+    // If fetch failed (file:// or network), try embedded JSON fallback in the page.
+    const embedded = document.getElementById('embedded-books');
+    if (embedded) {
+      try {
+        books = JSON.parse(embedded.textContent);
+        populateTagFilter();
+        renderResults(books);
+        return;
+      } catch (ee) {
+        console.error('Failed to parse embedded books JSON', ee);
+      }
+    }
     document.querySelector('#results').innerHTML = `<div class="error">Failed to load books: ${err}</div>`;
   }
 }

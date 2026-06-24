@@ -1,22 +1,29 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<title>LibriUDS — Book Search</title>
-		<link rel="stylesheet" href="styles.css" />
+		<title>Libri UDS — Ricerca Libri</title>
+		<link rel="stylesheet" href="theme.css" />
 	</head>
 	<body>
 		<main class="container">
 			<header>
-				<h1>LibriUDS</h1>
-				<p class="lead">Search the book database by title, author or code.</p>
+			<div class="page-title">
+				<img src="logo.png" alt="Logo UDS" class="logo" />
+				<div>
+					<h1>Lista dei Libri Disponibili</h1>
+					<p class="lead">Cerca nel database dei libri per titolo, autore o codice.</p>
+				</div>
+			</div>
 			</header>
 
+            <a href="come-funziona.html">Come funziona?</a>
+
 			<section class="controls">
-				<input id="q" type="search" placeholder="Search by title, author, code or description" autofocus />
+				<input id="q" type="search" placeholder="Cerca per titolo, autore, codice o descrizione" autofocus />
 				<select id="tag-filter">
-					<option value="">All tags</option>
+					<option value="">Indirizzo</option>
 				</select>
 				<div id="count" class="count"></div>
 			</section>
@@ -25,6 +32,21 @@
 				<!-- results go here -->
 			</section>
 		</main>
+
+		<!--Finto dataset -->
+		<script id="embedded-books" type="application/json">
+		[
+			{
+				"id": 1,
+				"title": "Error",
+				"author": "Error",
+				"year": "Error",
+				"code": "Error",
+				"tags": ["algorithms", "textbook", "computer-science"],
+				"description": "Error"
+			},
+		]
+		</script>
 
 		<script src="scripts.js" defer></script>
 	</body>
