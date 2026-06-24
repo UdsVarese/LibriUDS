@@ -7,5 +7,15 @@
     "code": "ALG-CLRS-2009",
     "tags": ["liceo"],
     "description": "Daje"
-  }
+  },
+
+    {
+    "id": 2,
+    "title": "Manifesto del Partito Comunista",
+    "author": "Carlone",
+    "code": "MDPC",
+    "tags": ["comunismo"],
+    "description": "yey"
+  },
+  
 ]
