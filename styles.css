@@ -48,13 +48,13 @@
       margin:0;
       background:var(--bg);
       color:var(--text);
-      font-family:"Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui, -apple-system, sans-serif;
+      font-family: Roboto, "Helvetica Neue", Arial, system-ui, -apple-system, sans-serif;
       -webkit-font-smoothing:antialiased;
       -moz-osx-font-smoothing:grayscale;
       line-height:1.45;
     }
 
-    header h1{margin:.15rem 0;font-family:Georgia, "Times New Roman", serif;font-weight:600;letter-spacing:.2px;font-size:1.6rem;color:var(--accent)}
+    header h1{margin:.15rem 0;font-family: Roboto, "Ubuntu", serif;font-weight:600;letter-spacing:.2px;font-size:1.6rem;color:var(--accent)}
 
     /* Links */
     border-radius:var(--radius);

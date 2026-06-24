@@ -16,7 +16,7 @@ body{
   margin:0;
   background:var(--bg);
   color:var(--text);
-  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui, -apple-system, sans-serif;
+  font-family: 'Poppins', "Segoe UI", Roboto, "Helvetica Neue", Arial, system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
   line-height:1.45;
@@ -44,7 +44,7 @@ header{
 
 header h1{
   margin:.15rem 0;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Poppins', "Segoe UI", Arial, sans-serif;
   font-weight:600;
   letter-spacing:0.2px;
   font-size:1.6rem;
