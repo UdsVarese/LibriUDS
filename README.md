@@ -9,7 +9,7 @@ This is NOT practical but it is easy to build.
 
 **Example**
 
-[
+`[
   {
     "id": 1,
     "title": "Title",
@@ -18,18 +18,8 @@ This is NOT practical but it is easy to build.
     "code": "ALG-CLRS-2009",
     "tags": ["liceo"],
     "description": "Daje"
-  },
-
-    {
-    "id": 2,
-    "title": "Title,
-    "author": "Author",
-    "code": "MDPC",
-    "tags": ["liceo"],
-    "description": "yey"
-  }
-  
-]
+  } (you would put a , here if there was another entry following this)
+]`
 
 
 **Architecture (prototype)**
